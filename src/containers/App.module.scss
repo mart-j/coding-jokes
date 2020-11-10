@@ -1,0 +1,21 @@
+
+
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  border-top: 30px solid black;
+  background-color: #1b1c22;
+}
+.user {
+  color: aqua;
+  font-weight: 700;
+}
+
+.terminalText {
+  color: white;
+}

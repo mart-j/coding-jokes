@@ -1,0 +1,46 @@
+
+.container {
+  display: flex;
+}
+
+.input {
+  display: flex;
+}
+.inputField {
+  padding: 3px p;
+  caret-shape: underscore;
+  caret-color: aqua;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #1b1c22;
+  margin-bottom: 50px;
+}
+.inputField:focus {
+  color: aliceblue;
+  background-image: none;
+}
+.inputField {
+  animation: blink-empty 1.3s infinite;
+  background-image:/*linear-gradient(black,black)*/ linear-gradient(
+    aqua,
+    aqua
+  );
+  background-position: 2px center;
+  background-repeat: no-repeat;
+  background-size: 1px 1.2em;
+}
+@keyframes blink-empty {
+  30%,
+  75% {
+    background-size: 1px 1.2em;
+  }
+  50% {
+    background-size: 0 1.2em;
+  }
+}
+
+.user {
+  color: aqua;
+  font-weight: 700;
+}
